@@ -1,10 +1,10 @@
 import React from 'react'
 
-function Transaction({date, desc, amount, category}) {
+function Transaction({date, description, amount, category}) {
   return (
     <tr>
         <td>{date}</td>
-        <td>{desc}</td>
+        <td>{description}</td>
         <td>{category}</td>
         <td>{amount}</td>
     </tr>
